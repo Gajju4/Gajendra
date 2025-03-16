@@ -135,12 +135,13 @@ export default function Home() {
               <div className="absolute inset-0 bg-blue-600 rounded-full opacity-20 blur-2xl transform scale-110"></div>
               <div className="relative w-full h-full rounded-full border-4 border-blue-600 overflow-hidden shadow-2xl transition-transform duration-300 hover:scale-105">
                 <Image
-                  src={`${process.env.NODE_ENV === 'production' ? '/Gajendra' : ''}/images/profile.jpeg?v=${new Date().getTime()}`}
+                  src={`${process.env.NODE_ENV === 'production' ? '/Gajendra' : ''}/images/profile.jpeg?v=16032024094500`}
                   alt="Gajendra Singh - Data Scientist"
                   width={320}
                   height={320}
                   style={{ objectFit: 'cover', objectPosition: 'center', width: '100%', height: '100%' }}
                   priority
+                  unoptimized
                   className="rounded-full"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
