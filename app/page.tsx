@@ -108,7 +108,7 @@ export default function Home() {
                   Contact Me
                 </Link>
                 <a 
-                  href="/resume.pdf"
+                  href={process.env.NODE_ENV === 'production' ? '/Gajendra/resume.pdf' : '/resume.pdf'}
                   download
                   className="px-8 py-3 text-lg font-medium text-green-600 border-2 border-green-600 rounded-lg hover:bg-green-50 dark:text-green-400 dark:border-green-400 dark:hover:bg-gray-800 transition-colors duration-300 flex items-center gap-2"
                 >
