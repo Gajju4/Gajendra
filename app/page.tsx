@@ -137,9 +137,9 @@ export default function Home() {
                 <Image
                   src={process.env.NODE_ENV === 'production' ? '/Gajendra/images/profile.jpeg' : '/images/profile.jpeg'}
                   alt="Gajendra Singh - Data Scientist"
-                  fill
-                  sizes="(max-width: 768px) 256px, 320px"
-                  style={{ objectFit: 'cover', objectPosition: 'center' }}
+                  width={320}
+                  height={320}
+                  style={{ objectFit: 'cover', objectPosition: 'center', width: '100%', height: '100%' }}
                   priority
                   className="rounded-full"
                   onError={(e) => {
