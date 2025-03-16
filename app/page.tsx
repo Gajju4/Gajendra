@@ -135,7 +135,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-blue-600 rounded-full opacity-20 blur-2xl transform scale-110"></div>
               <div className="relative w-full h-full rounded-full border-4 border-blue-600 overflow-hidden shadow-2xl transition-transform duration-300 hover:scale-105">
                 <Image
-                  src={`${process.env.NODE_ENV === 'production' ? '/Gajendra' : ''}/images/profile-new.jpeg?v=${Date.now()}`}
+                  src={`${process.env.NODE_ENV === 'production' ? '/Gajendra' : ''}/images/profile.jpeg?v=${new Date().getTime()}`}
                   alt="Gajendra Singh - Data Scientist"
                   width={320}
                   height={320}
