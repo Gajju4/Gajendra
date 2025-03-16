@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/Cursor_portfolio' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/Gajendra' : '',
 }
 
 module.exports = nextConfig 
