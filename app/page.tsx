@@ -419,10 +419,10 @@ export default function Home() {
                 <div>
                   <h4 className="font-medium text-gray-900 dark:text-white">Marketplace Ads Performance in Search Engines</h4>
                   <ul className="mt-2 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
-                    <li>Conducted experiments for treatments and controls using Agora and FSC to evaluate ad performance</li>
-                    <li>Optimized SQL and Cosmos scripts, automating deployments via Azure DevOps</li>
-                    <li>Built and managed ETL pipelines in Azure Data Factory using Microsoft Fabric</li>
-                    <li>Developed Power BI dashboards to track KPIs, analyze experiments, and monitor forecasting models</li>
+                    <li>Conducted in-depth analysis and provided actionable insights to optimize performance of KPI and metrics for Ads campaigns</li>
+                    <li>Designed and developed an interactive Power BI dashboard to deliver daily insights, enhancing data-driven decision-making for ad campaigns</li>
+                    <li>Automated ETL processes for campaign analysis using Azure Data Factory (ADF), improving efficiency and reducing manual effort</li>
+                    <li>Utilized Python and DAX to create advanced and visually compelling Power BI visuals, enabling detailed and dynamic data exploration</li>
                   </ul>
                 </div>
 
@@ -430,10 +430,9 @@ export default function Home() {
                 <div>
                   <h4 className="font-medium text-gray-900 dark:text-white">Player Segmentation and Behavioral Insights for PlayStation</h4>
                   <ul className="mt-2 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
-                    <li>Conducted in-depth analysis and provided actionable insights to optimize performance of KPI and metrics for Ads campaigns</li>
-                    <li>Designed and developed an interactive Power BI dashboard to deliver daily insights, enhancing data-driven decision-making for ad campaigns</li>
-                    <li> Automated ETL processes for campaign analysis using Azure Data Factory (ADF), improving efficiency and reducing manual effort</li>
-                    <li>Utilized Python and DAX to create advanced and visually compelling Power BI visuals, enabling detailed and dynamic data exploration</li>
+                    <li>Conducted player segmentation using 27 KPIs (1yr and 3yr) with bias correction, outlier handling, and data standardization</li>
+                    <li>Determined optimal clusters using Elbow, Silhouette, and DB Index methods; grouped players into six clusters via K-Means</li>
+                    <li>Analyzed clusters to derive insights and labeled segments as Performers, Exploratory, Frugal, Competitive, Social, and Dormant</li>
                   </ul>
                 </div>
 
