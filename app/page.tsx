@@ -430,9 +430,10 @@ export default function Home() {
                 <div>
                   <h4 className="font-medium text-gray-900 dark:text-white">Player Segmentation and Behavioral Insights for PlayStation</h4>
                   <ul className="mt-2 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
-                    <li>Conducted player segmentation using 27 KPIs with bias correction and data standardization</li>
-                    <li>Determined optimal clusters using multiple methods and grouped players into six distinct segments</li>
-                    <li>Analyzed clusters to derive actionable insights for targeted marketing strategies</li>
+                    <li>Conducted in-depth analysis and provided actionable insights to optimize performance of KPI and metrics for Ads campaigns</li>
+                    <li>Designed and developed an interactive Power BI dashboard to deliver daily insights, enhancing data-driven decision-making for ad campaigns</li>
+                    <li> Automated ETL processes for campaign analysis using Azure Data Factory (ADF), improving efficiency and reducing manual effort</li>
+                    <li>Utilized Python and DAX to create advanced and visually compelling Power BI visuals, enabling detailed and dynamic data exploration</li>
                   </ul>
                 </div>
 
@@ -498,7 +499,7 @@ export default function Home() {
               </h3>
               <p className="text-blue-600 dark:text-blue-400">Indian Institute of Technology Kharagpur • 2024</p>
               <p className="mt-2 text-gray-600 dark:text-gray-300">
-                CGPA: 8.90/10
+                CGPA: 8.93/10
               </p>
             </div>
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
