@@ -422,7 +422,7 @@ export default function Home() {
                     <li>Conducted in-depth analysis and provided actionable insights to optimize performance of KPI and metrics for Ads campaigns</li>
                     <li>Designed and developed an interactive Power BI dashboard to deliver daily insights, enhancing data-driven decision-making for ad campaigns</li>
                     <li>Automated ETL processes for campaign analysis using Azure Data Factory (ADF), improving efficiency and reducing manual effort</li>
-                    <li>Utilized Python and DAX to create advanced and visually compelling Power BI visuals, enabling detailed and dynamic data exploration</li>
+                    <li>Leveraged Python and Statistical analysis to assess forecasting model accuracy, leading to data-driven performance enhancements.</li>
                   </ul>
                 </div>
 
